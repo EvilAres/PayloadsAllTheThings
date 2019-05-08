@@ -197,7 +197,7 @@ cme smb 192.168.1.2 -u Administrator -H 89[...]9d -M gpp_password
 List all GPO for a domain
 
 ```powershell
-Get-GPO -domaine DOMAIN.COM -all
+Get-GPO -domain DOMAIN.COM -all
 Get-GPOReport -all -reporttype xml --all
 
 Powersploit:
